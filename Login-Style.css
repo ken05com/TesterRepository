@@ -101,10 +101,11 @@ body {
 
 .user button {
   background: #00b894;
-  color: #1B1B1B;
+  color: white;
   border: none;
   border-radius: 20px;
   padding: 8px 16px;
+  padding-top: 11px;
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s ease;
@@ -221,4 +222,116 @@ body {
   .user {
     right: 20px;
   }
+}
+
+.class-form {
+  background-color: #1B1B1B;
+  height: 100%;
+  width: 65%;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-left: 40px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+
+.btn-submit {
+  background-color: #00b894;
+  color: white;
+}
+.btn-submit:hover {
+  background-color: #019870;
+  font-weight: 600;
+}
+.btn {
+  width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+input {
+  width: 400px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: #232323;
+  color: white;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+input:focus {
+  outline: none;
+  border-color: #00b894;
+}
+
+select {
+  width: 400px;
+  height: 44px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: #232323;
+  color: white;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+select:focus {
+  outline: none;
+  border-color: #00b894;
+}
+
+.availableclass-header {
+  padding-top: 15px;
+  padding-left: 24px;
+  padding-bottom: 10px;
+}
+
+.classes-form {
+  padding-left: 36px;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 20px; 
+  padding-left: 36px;
+}
+
+/* Updated .classes style for better positioning of elements */
+.classes {
+  cursor: pointer;
+  /* Use a better width, e.g., to get 3 columns on a wider screen */
+  width: 30%; 
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 15px; 
+  border: 1px solid #00b894;
+  background-color: #1B1B1B;
+  color: white;
+  border-radius: 8px; 
+  text-align: left;
+  position: relative;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: #ff6347;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px;
+    line-height: 1;
+}
+
+.delete-btn:hover {
+    color: #cc4c38;
 }
